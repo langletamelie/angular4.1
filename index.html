@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-init="counter = 0">
+    <button type="button" name="more" ng-click="counter = counter + 1">PLUS</button>
+    <button type="button" name="less" ng-click="counter = counter - 1">MOINS</button>
+    </div>
+    <p>{{counter}}</p>
+  </body>
+</html>
